@@ -1,0 +1,63 @@
+-- Insert students
+INSERT INTO students (full_name, email, major, class_level) VALUES
+('Aisha Khan', 'aisha.khan@email.com', 'Computer Systems', 'Junior'),
+('Brian Lee', 'brian.lee@email.com', 'Computer Systems', 'Senior'),
+('Carlos Rivera', 'carlos.rivera@email.com', 'Business Technology', 'Sophomore'),
+('Diana Patel', 'diana.patel@email.com', 'Computer Systems', 'Junior'),
+('Ethan Smith', 'ethan.smith@email.com', 'Data Science', 'Freshman'),
+('Fatima Noor', 'fatima.noor@email.com', 'Computer Systems', 'Senior'),
+('George Chen', 'george.chen@email.com', 'Cybersecurity', 'Junior'),
+('Hana Ali', 'hana.ali@email.com', 'Computer Systems', 'Sophomore'),
+('Isaac Johnson', 'isaac.johnson@email.com', 'Business Technology', 'Senior'),
+('Julia Thomas', 'julia.thomas@email.com', 'Data Science', 'Junior'),
+('Kevin Brown', 'kevin.brown@email.com', 'Cybersecurity', 'Freshman'),
+('Layla Ahmed', 'layla.ahmed@email.com', 'Computer Systems', 'Senior'),
+('Michael Garcia', 'michael.garcia@email.com', 'Computer Systems', 'Sophomore'),
+('Nina Davis', 'nina.davis@email.com', 'Business Technology', 'Junior'),
+('Omar Rahman', 'omar.rahman@email.com', 'Cybersecurity', 'Senior');
+
+-- Insert events
+INSERT INTO events (event_title, event_date, location, capacity, category) VALUES
+('Database Workshop', '2026-04-01', 'Room A101', 30, 'Technology'),
+('Career Fair', '2026-04-05', 'Main Hall', 100, 'Career'),
+('Hackathon Kickoff', '2026-04-10', 'Lab 3', 40, 'Technology'),
+('Resume Review Session', '2026-04-12', 'Career Center', 25, 'Career'),
+('Spring Networking Mixer', '2026-04-15', 'Student Lounge', 50, 'Social'),
+('AI Seminar', '2026-04-18', 'Room B205', 35, 'Academic'),
+('Cybersecurity Panel', '2026-04-20', 'Auditorium', 60, 'Technology'),
+('Study Skills Workshop', '2026-04-22', 'Library Room 2', 20, 'Academic'),
+('Internship Info Session', '2026-04-24', 'Career Center', 45, 'Career'),
+('Game Night', '2026-04-26', 'Student Lounge', 70, 'Social'),
+('Cloud Computing Talk', '2026-04-28', 'Lab 2', 30, 'Technology'),
+('Leadership Seminar', '2026-05-01', 'Room C110', 40, 'Academic'),
+('Tech Club Meeting', '2026-05-03', 'Lab 1', 25, 'Technology'),
+('Alumni Career Talk', '2026-05-05', 'Main Hall', 80, 'Career'),
+('Finals Stress Relief Event', '2026-05-08', 'Campus Yard', 120, 'Social');
+
+-- Insert registrations
+INSERT INTO registrations (student_id, event_id, registration_date, status) VALUES
+(1, 1, '2026-03-20', 'registered'),
+(1, 2, '2026-03-20', 'registered'),
+(2, 1, '2026-03-20', 'registered'),
+(2, 3, '2026-03-21', 'registered'),
+(3, 2, '2026-03-21', 'registered'),
+(4, 4, '2026-03-21', 'registered'),
+(5, 5, '2026-03-21', 'waitlisted'),
+(6, 6, '2026-03-22', 'registered'),
+(7, 7, '2026-03-22', 'registered'),
+(8, 8, '2026-03-22', 'registered'),
+(9, 9, '2026-03-22', 'cancelled'),
+(10, 10, '2026-03-22', 'registered'),
+(11, 11, '2026-03-23', 'registered'),
+(12, 12, '2026-03-23', 'registered'),
+(13, 13, '2026-03-23', 'registered'),
+(14, 14, '2026-03-23', 'registered'),
+(15, 15, '2026-03-23', 'registered'),
+(3, 6, '2026-03-23', 'registered'),
+(4, 7, '2026-03-23', 'registered'),
+(5, 1, '2026-03-23', 'registered'),
+(6, 2, '2026-03-23', 'registered'),
+(7, 3, '2026-03-23', 'waitlisted'),
+(8, 4, '2026-03-23', 'registered'),
+(9, 5, '2026-03-23', 'registered'),
+(10, 6, '2026-03-23', 'registered');
